@@ -1,0 +1,121 @@
+
+.mycalc{
+    border: 3px solid #154646;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #c4dbec;
+}
+
+.all-btn {
+    display: flex;
+}
+
+.all-btn-no{
+    display: flex;
+    width: 310px;
+    flex-wrap: wrap;
+}
+
+.all-btn-sign {
+    display: flex;
+    flex-direction: column;
+}
+
+.all-btn-no button{
+    background-color: #136363;
+    border: none;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    width: 75px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.all-btn-sign button{
+    background-color: #136363;
+    border: none;
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+    border-radius: 25px;
+    width: 75px;
+    height: 50px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.all-btn-sign button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px cadetblue ;
+}
+
+.all-btn-no button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px cadetblue;
+}
+
+.btn-extra{
+    display: flex;
+}
+
+.btn-extra button{
+    background-color: #136363;
+    color: white;
+}
+
+.btn-extra button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px cadetblue;
+}
+
+.btn-cl-eq{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.btn-cl-eq button{
+    width: 200px;
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+#clear,
+#equals {
+    color: white;
+    background-color: #136363;
+}
+
+#clear:hover,
+#equals:hover {
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+input{
+    width: 80%;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 15px;
+    border-color: 3px solid #353e43 ;
+}
+
+input:focus{
+    outline: none;
+    border: 3px solid #749b9c;
+}
